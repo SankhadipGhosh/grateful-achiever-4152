@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            width: 100vw;
+            height: 25vh;
+            display: flex;
+            z-index: 5;
+            position: sticky;
+        }
+        nav div:nth-child(1){
+            height: 100%;
+            width: 20%;
+
+        }
+        nav div:nth-child(1)>img{
+            height: 100%;
+            width: 80%;
+        }
+        nav div:nth-child(2){
+            width: 15%;
+            height: 100%;
+            border: 1px solid;
+        }
+        nav div:nth-child(3){
+            width: 45%;
+            height: 100%;
+            border: 1px solid;
+        }
+        nav div:nth-child(3)>button{
+            width: 100%;
+            height: 30%;
+        }
+
+        #slide{
+            width: 100vw;
+            height: 70vh;
+            background-color: red;
+
+        }
+        #slide1{
+            width: 100vw;
+            height: 90vh;
+            background-color: red;
+
+        }
+        #slide2{
+            width: 100vw;
+            height: 90vh;
+            background-color: red;
+
+        }
+        .offers{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            width: 100vw;gap: 2%;
+        }
+        .offers img{
+           
+            width: 100%;
+            opacity: 60%;
+            
+        }
+       
+        .offers1{
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            width: 100vw;gap: 2%;
+        }
+        .offers1 img{
+           
+            width: 100%;
+            opacity: 50%;
+            
+        }
+
+        .beverages{
+            display: grid;
+            grid-template-areas: 
+            "a a b c"
+            "a a d e";
+            gap: 2%;
+        }
+        .beverages img{
+            width: 100%;
+            height: 100%;
+            opacity: 50%;
+        }
+        .beverages div:nth-child(1){
+             grid-area: a;
+        }
+        .beverages div:nth-child(2){
+             grid-area: b;
+        }
+        .beverages div:nth-child(3){
+             grid-area: c;
+        }
+        .beverages div:nth-child(4){
+             grid-area: d;
+        }
+        .beverages div:nth-child(5){
+             grid-area: e;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div> <img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        
+        <div>sgpay</div>
+        
+        <div><button> search</button>
+        </div>
+
+        <div>
+            my basket
+        </div>
+    </nav>
+
+    <div id="slide">
+
+    </div>
+
+    <div id="btndv">
+        <button><a href="">neupass</a></button>
+        <button><a href="">neupass</a></button>
+        <button><a href="">neupass</a></button>
+        <button><a href="">neupass</a></button>
+        <button><a href="">neupass</a></button>
+        <button><a href="">neupass</a></button>
+
+    </div>
+
+    <div id="slide1">
+
+    </div>
+
+    <h3>text</h3>
+    <div class="offers">
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+      
+    </div>
+
+
+    <h3>text</h3>
+    <div class="offers">
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+      
+    </div>
+
+
+    <h3>text</h3>
+    <div class="offers1">
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+      
+    </div>
+    
+    <h3>text</h3>
+    <div class="offers1">
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+      
+    </div>
+    <h3>text</h3>
+    <div class="beverages">
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+    </div>
+    <h3>text</h3>
+    <div class="offers">
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+      
+    </div>
+    <h3>text</h3>
+    <div class="offers">
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+      
+    </div>
+
+
+    <h3>text</h3>
+    <div class="offers1">
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+      
+    </div>
+
+    <h3>text</h3>
+    <div class="offers1">
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+      
+    </div>
+
+    
+    <div id="slide2">
+
+    </div>
+
+    <h3>text</h3>
+    <div class="offers1">
+        <div><img  src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+        <div><img src="https://drive.google.com/uc?id=1MEs3oMcSXQ-fhRXPAFklnIBXxvMDEhS0" alt=""></div>
+      
+    </div>
+
+</body>
+</html>
