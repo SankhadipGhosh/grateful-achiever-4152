@@ -69,7 +69,7 @@
 
         #header{
             width: 100vw;
-            height: 80vh;
+            /* height: 80vh; */
         }
         #header img{
             width: 100%;
@@ -173,6 +173,14 @@
             display: flex;
             width: 700%;
         } */ */
+
+        #slide3{
+            width: 100vw;
+            /* height: 80vh; */
+        }
+        #slide3 img{
+            width: 100%;
+        }
        #btn{
         display: flex;
         margin-bottom: 3%;
@@ -181,10 +189,10 @@
        }
      
        #btn a{
-        margin: .5%;
+        margin: 2%;
        }
        #btn img{
-        width: 13%;
+        width: 100%;
        } 
        hr{
         margin: 2%;
@@ -282,6 +290,52 @@
        #info1 div a:hover{
         color:rgb(108, 209, 56) ;
        }
+       @media (min-width:400px) and (max-width:800px){
+           .offers{
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: auto;
+           } 
+           .offers1{
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: auto;
+           } 
+           nav div:nth-child(3){
+            display: none;
+           }
+           nav{
+            justify-content: space-between;
+           }
+           nav div:nth-child(2){
+            display: none;
+           }
+           #info1{
+            grid-template-columns: repeat(2,1fr);
+           }
+
+        }
+        @media (max-width:399px){
+            .offers{
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: auto;
+           
+           } 
+           .offers1{
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: auto;
+           } 
+           nav div:nth-child(3){
+            display: none;
+           }
+           nav{
+            justify-content: space-between;
+           }
+           nav div:nth-child(2){
+            display: none;
+           }
+           #info1{
+            grid-template-columns: repeat(1,1fr);
+           }
+        }
     </style>
 </head>
 <body>
@@ -476,7 +530,7 @@
       
     </div>
 
-    <h3>Featured Recipes</h3>
+    <h3> Featured Recipes</h3>
     <hr>
     <div id="slide3">
         <img src="https://drive.google.com/uc?id=1cGQVALD_D6i7CitRxM5KI1I3h6GqGBKy" alt="">
@@ -532,7 +586,8 @@
         </div>
         <div>
             <h4>
-                Get Social With Us</h4>
+                Get Social With Us 
+            </h4>
 
         </div>
     </div>
